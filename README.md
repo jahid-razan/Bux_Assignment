@@ -75,15 +75,15 @@ The order_summary table shown below is the Star schema that combines the data fr
 1. From the given tables three tables have been created, these are Accounts, Orders, and Masterdata
 
 ** Account table: 
-[Accounts](https://github.com/jahid-razan/Bux_Assignment/blob/main/accounts.JPG)
+![Accounts](https://github.com/jahid-razan/Bux_Assignment/blob/main/accounts.JPG)
 
 
 ** Ordertable: 
-[Orders](https://github.com/jahid-razan/Bux_Assignment/blob/main/orders.JPG)
+![Orders](https://github.com/jahid-razan/Bux_Assignment/blob/main/orders.JPG)
 
 
 ** Masterdata table: 
-[MASTERDATA](https://github.com/jahid-razan/Bux_Assignment/blob/main/MASTERDATA.JPG)
+![MASTERDATA](https://github.com/jahid-razan/Bux_Assignment/blob/main/MASTERDATA.JPG)
 
 3. These newly created tables contains the dimension information that has been extracted from the JSON data types of the payload columns.
 4. The master data table only contains the unique name of the companies and the security id
