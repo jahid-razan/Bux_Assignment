@@ -94,6 +94,7 @@ Due to the limited number of dimensional tables for this exercise a STAR schema 
 6. The Accounts and Orders Tables can be joined based on the common user_id column and the Masterdata and Orders can be joined using the security id column. 
 7. Most engaged clients have been calculated by summing the value of orders per country per category 
 8. To calculate the market sentiment 250 moving average vs 50 days of moving average for order quantity has been compared.
+9. The tableau dashboard that shows the vizualizations can be downloaded from [here](https://github.com/jahid-razan/Bux_Assignment/blob/main/Bux_dashboard.twbx)
 
 # 5. Vizualizations
 
