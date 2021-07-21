@@ -44,15 +44,16 @@ The building of a dimensional model can be summarized in a 05-step process [2].
         3.	**Identify Dimensions**: Dimensions are the nouns where all the data are stored. In our case, the Accounts, Orders and Masterdata tables hold the necessary dimensions.
 
         4.	**Identify Facts**: The facts entail what questions we need to answer. In this case, we need the following:
-            •	Market categories 
-            •	Order types (market/limit/basic) 
-            •	Sentiment 
-            •	Total, average/median order volume 
-            •	Most engaged clients, and where do they come from
-            • Country of residence
-            • Period
-            • Latest Order State
-            • EU vs US securities
+        
+                        - Market categories 
+                        - Order types (market/limit/basic) 
+                        - Sentiment 
+                        - Total, average/median order volume 
+                        - Most engaged clients, and where do they come from
+                        - Country of residence
+                        - Period
+                        - Latest Order State
+                        - EU vs US securities
 
 
             
