@@ -92,7 +92,7 @@ Due to the limited number of dimensional tables for this exercise a STAR schema 
 4. The order_summary table is used in the tableau to prepare the visualizations/dashboard. 
 5. The codes used to extract the new tables has been added in a [separate file](https://github.com/jahid-razan/Bux_Assignment/blob/main/Bux_codes.sql).
 6. The Accounts and Orders Tables can be joined based on the common user_id column and the Masterdata and Orders can be joined using the security id column. 
-7. Most engaged clients have been calculated by summing the value of orders per country 
+7. Most engaged clients have been calculated by summing the value of orders per country per category 
 8. To calculate the market sentiment 250 moving average vs 50 days of moving average for order quantity has been compared.
 
 # 5. References:
