@@ -77,7 +77,7 @@ The order_summary table shown below is the Star schema that combines the data fr
 3. The master data table only contains the unique name of the companies and the security id
 4. All the necessary columns have been taken to prepare the fact table that is the order summary table.
 5. The table is used in the tableau to prepare the visualizations/dashboard. 
-6. The codes used to extract the schema has been added in a separate file.
+6. The codes used to extract the schema has been added in a [separate file](https://github.com/jahid-razan/Bux_Assignment/blob/main/Bux_codes.sql).
 
 # 5. References:
 
