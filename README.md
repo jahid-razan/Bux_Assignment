@@ -85,6 +85,9 @@ The order_summary table shown below is the Star schema that combines the data fr
 **Masterdata:** 
 ![MASTERDATA](https://github.com/jahid-razan/Bux_Assignment/blob/main/MASTERDATA.JPG)
 
+**order_summary:** 
+![order_summary](https://github.com/jahid-razan/Bux_Assignment/blob/main/order_summary.JPG)
+
 3. These newly created tables contains the dimension information that has been extracted from the JSON data types of the payload columns.
 4. The master data table only contains the unique name of the companies and the security id
 5. All the necessary columns have been taken to prepare the fact table that is the order summary table.
