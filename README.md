@@ -97,10 +97,12 @@ Due to the limited number of dimensional tables for this exercise a STAR schema 
 
 # 5. Vizualizations
 
-Following dashboards have been created:
+Following dashboards have been created to complete the task:
 
+**Shows the summary about Categories, Order Types and Most Engaged Clients**
 ![dashboard-1](https://github.com/jahid-razan/Bux_Assignment/blob/main/dashboard_1.JPG)
 
+**Shows the average, median and total order and market sentiment**
 ![dashboard-2](https://github.com/jahid-razan/Bux_Assignment/blob/main/dashboard_2.JPG)
 
 # 6. References:
