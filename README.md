@@ -1,6 +1,6 @@
 # 1. Background & Objective of the Project
 
-The objective of this project is to create a data model and a dashboard  by using the data provided in the three tables to answer the following questions: 
+The objective of this project is to create a data model and a dashboard by using the data BUX data provided in the three tables to answer the following questions: 
 
 
             - What securities/market categories are traded the most?
