@@ -83,6 +83,6 @@ The order_summary table shown below is the Star schema that combines the data fr
 
 1. Basics explanation of [Fact and Dimension Table](https://medium.com/@BluePi_In/deep-diving-in-the-world-of-data-warehousing-78c0d52f49a)
 
-2. [What is Dimensional Modeling in Data Warehouse?] (https://www.guru99.com/dimensional-model-data-warehouse.html)
+2. [What is Dimensional Modeling in Data Warehouse?](https://www.guru99.com/dimensional-model-data-warehouse.html)
 
-3. [HOW TO ANALYZE JSON WITH SQL - Snowflake] (https://www.snowflake.com/wp-content/uploads/2017/08/Snowflake-How-to-Analyze-JSON-with-SQL.pdf)
+3. [HOW TO ANALYZE JSON WITH SQL - Snowflake](https://www.snowflake.com/wp-content/uploads/2017/08/Snowflake-How-to-Analyze-JSON-with-SQL.pdf)
