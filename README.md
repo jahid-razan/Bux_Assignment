@@ -82,7 +82,7 @@ The order_summary table shown below is the Star schema that combines the data fr
 ![Orders](https://github.com/jahid-razan/Bux_Assignment/blob/main/orders.JPG)
 
 
-** Masterdata:** 
+**Masterdata:** 
 ![MASTERDATA](https://github.com/jahid-razan/Bux_Assignment/blob/main/MASTERDATA.JPG)
 
 3. These newly created tables contains the dimension information that has been extracted from the JSON data types of the payload columns.
