@@ -72,12 +72,24 @@ The order_summary table shown below is the Star schema that combines the data fr
 
 # 4. Steps
 
-1. From the given tables three tables have been created, these are Orders, Accounts and Masterdata
-2. These newly created tables contains the dimension information that has been extracted from the JSON data types of the payload columns.
-3. The master data table only contains the unique name of the companies and the security id
-4. All the necessary columns have been taken to prepare the fact table that is the order summary table.
-5. The table is used in the tableau to prepare the visualizations/dashboard. 
-6. The codes used to extract the schema has been added in a [separate file](https://github.com/jahid-razan/Bux_Assignment/blob/main/Bux_codes.sql).
+1. From the given tables three tables have been created, these are Accounts, Orders, and Masterdata
+
+** Account table: 
+[Accounts](https://github.com/jahid-razan/Bux_Assignment/blob/main/accounts.JPG)
+
+
+** Ordertable: 
+[Orders](https://github.com/jahid-razan/Bux_Assignment/blob/main/orders.JPG)
+
+
+** Masterdata table: 
+[MASTERDATA](https://github.com/jahid-razan/Bux_Assignment/blob/main/MASTERDATA.JPG)
+
+3. These newly created tables contains the dimension information that has been extracted from the JSON data types of the payload columns.
+4. The master data table only contains the unique name of the companies and the security id
+5. All the necessary columns have been taken to prepare the fact table that is the order summary table.
+6. The table is used in the tableau to prepare the visualizations/dashboard. 
+7. The codes used to extract the schema has been added in a [separate file](https://github.com/jahid-razan/Bux_Assignment/blob/main/Bux_codes.sql).
 
 # 5. References:
 
