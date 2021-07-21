@@ -95,7 +95,15 @@ Due to the limited number of dimensional tables for this exercise a STAR schema 
 7. Most engaged clients have been calculated by summing the value of orders per country per category 
 8. To calculate the market sentiment 250 moving average vs 50 days of moving average for order quantity has been compared.
 
-# 5. References:
+# 5. Vizualizations
+
+Following dashboards have been created:
+
+![dashboard-1](https://github.com/jahid-razan/Bux_Assignment/blob/main/dashboard_1.JPG)
+
+![dashboard-2](https://github.com/jahid-razan/Bux_Assignment/blob/main/dashboard_2.JPG)
+
+# 6. References:
 
 1. Basics explanation of [Fact and Dimension Table](https://medium.com/@BluePi_In/deep-diving-in-the-world-of-data-warehousing-78c0d52f49a)
 
