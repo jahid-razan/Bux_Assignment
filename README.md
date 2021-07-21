@@ -1,7 +1,6 @@
 # 1. Background & Objective of the Project
 
-The objective of this project is to create a data model and a dashboard by using the data BUX data provided in the three tables to answer the following questions: 
-
+The objective of this project is to create a data model and a dashboard by using the BUX data provided in the three tables to answer the following questions: 
 
             - What securities/market categories are traded the most?
             - What kind of order types (market/limit/basic) are clients placing?
@@ -95,6 +94,7 @@ The order_summary table shown below is the Star schema that combines the data fr
 
 5. The table is used in the tableau to prepare the visualizations/dashboard. 
 6. The codes used to extract the new tables has been added in a [separate file](https://github.com/jahid-razan/Bux_Assignment/blob/main/Bux_codes.sql).
+7. The Accounts and Orders Tables can be joined based on the common user_id column and the Masterdata and Orders can be joined using the security id column. 
 
 # 5. References:
 
