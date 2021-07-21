@@ -36,13 +36,13 @@ Facts can be described as "a collection of related data items, which consist of 
 Hence, the fact table contains measurements/ facts and the foreign keys to the dimension tables through which they are connected to the dimension table. In this context- records that are required to calculate the current deposit for an account and the foreign keys are the facts. 
 The building of a dimensional model can be summarized in a 05-step process [2].
 
-        1.	**Identify Business Process**: In this step, the associated business processes such as finance, legal, sales etc. and the need of the model is identified. In our case, the need is- BUX needs to find the answer to some of the key questions. 
+        1.	+ **Identify Business Process**: In this step, the associated business processes such as finance, legal, sales etc. and the need of the model is identified. In our case, the need is- BUX needs to find the answer to some of the key questions. 
 
-        2.	**Identify Grain**: This step describes the level of detail at which the data is stored also known as granularity. For instance, in this case, every client transaction is captured at all the time along with the timestamp and afterwards month and year level data is used.  
+        2.	+ **Identify Grain**: This step describes the level of detail at which the data is stored also known as granularity. For instance, in this case, every client transaction is captured at all the time along with the timestamp and afterwards month and year level data is used.  
 
-        3.	**Identify Dimensions**: Dimensions are the nouns where all the data are stored. In our case, the Accounts, Orders and Masterdata tables hold the necessary dimensions.
+        3.	+ **Identify Dimensions**: Dimensions are the nouns where all the data are stored. In our case, the Accounts, Orders and Masterdata tables hold the necessary dimensions.
 
-        4.	**Identify Facts**: The facts entail what questions we need to answer. In this case, we need the following:
+        4.	+ **Identify Facts**: The facts entail what questions we need to answer. In this case, we need the following:
         
                         - Market categories 
                         - Order types (market/limit/basic) 
@@ -57,11 +57,11 @@ The building of a dimensional model can be summarized in a 05-step process [2].
 
             
 
-        5.	**Schema design**: This is the final stage of the dimensional data modelling. In his stage, the schema is built. Two popular schemas are:
+        5.	+ **Schema design**: This is the final stage of the dimensional data modelling. In his stage, the schema is built. Two popular schemas are:
         
-           **Star Schema**: In a star schema fact table remains at the centre while dimension tables are radiated from the centre. The shape ultimately looks like a star and hence is the name. 
+           + **Star Schema**: In a star schema fact table remains at the centre while dimension tables are radiated from the centre. The shape ultimately looks like a star and hence is the name. 
            
-           **Snowflake Schema**:  In a snowflake schema, each dimension is normalized and connected to more dimension tables.
+           + **Snowflake Schema**:  In a snowflake schema, each dimension is normalized and connected to more dimension tables.
 
 Due to the limited number of dimensional tables for this exercise a STAR schema is a good fit. The order_summary table shown below is the Star schema that combines the data from the Accounts, Orders and Masterdata:
 
