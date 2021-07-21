@@ -67,7 +67,7 @@ The building of a dimensional model can be summarized in a 05-step process [2].
 Due to the limited number of dimensional tables for this exercise a STAR schema is a good fit. 
 The order_summary table shown below is the Star schema that combines the data from the Accounts, Orders and Masterdata:
 
-![](ERD.jpg)
+![ERD.jpg](https://github.com/jahid-razan/Bux_Assignment/blob/main/ERD.JPG)
 
 
 # 4. Steps
